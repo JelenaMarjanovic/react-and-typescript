@@ -1,2 +1,2 @@
-# react-and-typescript
-[Udemy] Understanding TypeScript - 2020 Edition by Maximilian Schwarzmüller
+# [Udemy] Understanding TypeScript - 2020 Edition by Maximilian Schwarzmüller
+## React.js & TypeScript
