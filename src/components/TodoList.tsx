@@ -1,10 +1,9 @@
 import React from 'react';
 
+import { Todo } from '../todo.model';
+
 interface TodoListProps {
-  items: {
-    id: string;
-    text: string;
-  }[];
+  items: Todo[];
 }
 
 const TodoList: React.FC<TodoListProps> = (props) => {

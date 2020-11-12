@@ -3,10 +3,9 @@ import React, { useState } from 'react';
 import TodoList from './components/TodoList';
 import NewTodo from './components/NewTodo';
 
-type AppState = {
-  id: string;
-  text: string;
-}[];
+import { Todo } from './todo.model';
+
+type AppState = Todo[];
 
 const App: React.FC = () => {
   const [todos, setTodos] = useState<AppState>([]);
